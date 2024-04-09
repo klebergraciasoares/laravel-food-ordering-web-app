@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Online Food Order Management System
+# Online Food Order Management System 
 
 A web-based food ordering system built on Laravel with MySQL database and CRUD operations.
 
