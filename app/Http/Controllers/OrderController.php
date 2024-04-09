@@ -23,7 +23,7 @@ class OrderController extends Controller
     public function show()
     {
         $user_id = Auth::id();
-        $orders = Order::where('user_id', $user_id)->orderBy('date', 'desc')->get();
+        $orders = Order::where('users_id', $user_id)->orderBy('date', 'desc')->get();
         
         // To get total amount for each order:
         foreach($orders as $order) {
@@ -148,7 +148,7 @@ class OrderController extends Controller
 
     public function placeOrder(Request $req) {
         $order = Order::create([
-            'user_id' => Auth::id(),
+            'users_id' => Auth::id(),
             'date' => Carbon::now(),
             'type' => $req->type,
             'deliveryAddress' => $req->address,
