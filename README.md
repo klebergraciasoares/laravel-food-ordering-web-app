@@ -40,7 +40,8 @@ A web-based food ordering system built on Laravel with MySQL database and CRUD o
 ### order_lara
 #### `` query`sql` ``
 
-Returns a function that executes the query. Example:
+Copiar e colar em seu PhpMyAdmin e executar Script
+Ao ter sucesso, abrir prompt de comando e digitar para iniciar o projeto php artisan serve
 
 ```js
 
