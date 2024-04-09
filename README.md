@@ -35,6 +35,11 @@ A web-based food ordering system built on Laravel with MySQL database and CRUD o
 <img width="914" alt="Admin Update Food" src="public\images\screenshots\admin_update_food.png" style="margin-bottom: 15px;">
 
 
+
+## Database Script DBName order_lara
+### order_lara
+<img width="914" alt="Home" src="public\db\order_lara.sql" style="margin-bottom: 15px;">
+
 <!-- ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
